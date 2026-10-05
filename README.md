@@ -3,7 +3,7 @@
 ## Participant Details
 - **Full Name:** Kazi Sajedul Mahbub Arpon
 - **Registration Number:** 241-15-317
-- **Live Link:** [Vercel-এর লিংক পাওয়ার পর এখানে বসাবেন]
+- **Live Link:** [https://devfest-mock-241-15-317-dtb1.vercel.app](https://devfest-mock-241-15-317-dtb1.vercel.app)
 
 ## How to Run
 1. Clone: `git clone https://github.com/kaziaurpon/devfest-mock-241-15-317.git`
