@@ -1,32 +1,22 @@
-# React + TypeScript + Vite
+# Smart Escape - Evacuation Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Participant Details
+- **Full Name:** Kazi Sajedul Mahbub Arpon
+- **Registration Number:** 241-15-317
+- **Live Link:** [Vercel-এর লিংক পাওয়ার পর এখানে বসাবেন]
 
-Currently, two official plugins are available:
+## How to Run
+1. Clone: `git clone https://github.com/kaziaurpon/devfest-mock-241-15-317.git`
+2. Install: `npm install`
+3. Run: `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features Completed
+- Interactive SVG graph visualizer (Rooms, Junctions, Exits)
+- Dijkstra shortest path engine with strict tie-breaking logic
+- Hazard controls (Block nodes/edges, close exits)
+- Custom JSON file import support
+- Bilingual UI (Bangla & English support)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## AI Tools & Prompt
+- **AI Tools Used:** ChatGPT / Gemini / Cursor
+- **Most Useful Prompt:** "Create a React TypeScript Smart Escape Evacuation Simulator with Dijkstra pathfinding with strict tie-breaking rules and interactive SVG map"
